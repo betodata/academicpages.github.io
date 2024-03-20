@@ -1,4 +1,4 @@
-define(['pipAPI', 'https://robertoglz.github.io/template_main_touch.js'], function(APIConstructor, iatExtension){
+define(['pipAPI', 'https://betodata.github.io/IAT/template_main_touch.js'], function(APIConstructor, iatExtension){
     var API = new APIConstructor();
 
 	return iatExtension({
