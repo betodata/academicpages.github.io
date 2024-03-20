@@ -1,4 +1,4 @@
-define(['pipAPI', 'https://robertoglz.github.io/template_main.js'], function(APIConstructor, iatExtension){
+define(['pipAPI', 'https://betodata.github.io/IAT/template_main.js'], function(APIConstructor, iatExtension){
     var API = new APIConstructor();
 
 	return iatExtension({
@@ -37,7 +37,7 @@ define(['pipAPI', 'https://robertoglz.github.io/template_main.js'], function(API
 		},	
 
 		base_url : {//Where are your images at?
-			image : 'https://robertoglz.github.io/IAT/images/'
+			image : 'https://betodata.github.io/IAT/images/'
 		} 
 	});
 });
