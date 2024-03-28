@@ -86,7 +86,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 					{word: 'Repulsive'},
 					{word: 'Hate'},
 					{word: 'Loss'},
-					{word: 'Sickness'}
+					{word: 'Sick'}
 				],
 				//Stimulus css
 				stimulusCss : {color:'#0000FF','font-size':'2.3em'}
