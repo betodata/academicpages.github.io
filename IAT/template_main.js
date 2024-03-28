@@ -33,9 +33,9 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			},
 			//When scoring, we will consider the compatible condition the pairing condition that requires response with one key to [category1,attribute1] and the other key to [category2,attribute2]
 			category1 : {
-				name : 'Novorossiya', //Will appear in the data and in the default feedback message.
+				name : 'Nationalist', //Will appear in the data and in the default feedback message.
 				title : {
-					media : {word : 'Novorossiya'}, //Name of the category presented in the task.
+					media : {word : 'Nationalist'}, //Name of the category presented in the task.
 					css : {color:'#336600','font-size':'1.8em'}, //Style of the category title.
 					height : 4 //Used to position the "Or" in the combined block.
 				},
@@ -52,9 +52,9 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				stimulusCss : {color:'#336600','font-size':'2.3em'}
 			},
 			category2 :	{
-				name : 'Democracy', //Will appear in the data and in the default feedback message.
+				name : 'Liberal', //Will appear in the data and in the default feedback message.
 				title : {
-					media : {word : 'Democracy'}, //Name of the category presented in the task.
+					media : {word : 'Liberal'}, //Name of the category presented in the task.
 					css : {color:'#336600','font-size':'1.8em'}, //Style of the category title.
 					height : 4 //Used to position the "Or" in the combined block.
 				},
