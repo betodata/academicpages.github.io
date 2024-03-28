@@ -3,9 +3,9 @@ define(['pipAPI', 'https://betodata.github.io/IAT/template_main_touch.js'], func
 
 	return iatExtension({
 		category1 : {
-			name : 'Novorossiya', //Will appear in the data.
+			name : 'Nationalist', //Will appear in the data.
 			title : {
-				media: {word : 'Novorossiya'}, //Name of the category presented in the task.
+				media: {word : 'Nationalist'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'1.2em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
@@ -22,9 +22,9 @@ define(['pipAPI', 'https://betodata.github.io/IAT/template_main_touch.js'], func
 			stimulusCss : {color:'#31940F','font-size':'1.4em'}
 		},	
 		category2 :	{
-			name : 'Democracy', //Will appear in the data.
+			name : 'Liberal', //Will appear in the data.
 			title : {
-				media : {word : 'Democracy'}, //Name of the category presented in the task.
+				media : {word : 'Liberal'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'1.2em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
