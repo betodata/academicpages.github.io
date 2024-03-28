@@ -33,77 +33,81 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			},
 			//When scoring, we will consider the compatible condition the pairing condition that requires response with one key to [category1,attribute1] and the other key to [category2,attribute2]
 			category1 : {
-				name : 'Democracia', //Will appear in the data and in the default feedback message.
+				name : 'Novorossiya', //Will appear in the data and in the default feedback message.
 				title : {
-					media : {word : 'Democracia'}, //Name of the category presented in the task.
+					media : {word : 'Novorossiya'}, //Name of the category presented in the task.
 					css : {color:'#336600','font-size':'1em'}, //Style of the category title.
 					height : 1 //Used to position the "Or" in the combined block.
 				},
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    	{word : 'Voto'}, 
-    			{word : 'Participación'}, 
-    			{word : 'Libre Expresión'}, 
-    			{word : 'Igualdad'},
-			{word : 'Tolerancia'}
+    		    	{word : 'Novorossiya'}, 
+    			{word : 'Vladimir Putin'}, 
+    			{word : 'Maria Zakharova'}, 
+    			{word : 'Sergei Lavrov'},
+			{word : 'Dmirty Kiselyov'},
+			{word : 'Vladimir Solovyov'},
+			{word : 'Special operation'}
 			],
 				//Stimulus css (style)
 				stimulusCss : {color:'#336600','font-size':'1.4em'}
 			},
 			category2 :	{
-				name : 'Autoritarismo', //Will appear in the data and in the default feedback message.
+				name : 'Democracy', //Will appear in the data and in the default feedback message.
 				title : {
-					media : {word : 'Autoritarismo'}, //Name of the category presented in the task.
+					media : {word : 'Democracy'}, //Name of the category presented in the task.
 					css : {color:'#336600','font-size':'1em'}, //Style of the category title.
 					height : 1 //Used to position the "Or" in the combined block.
 				},
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    	{word : 'Dominación'}, 
-    			{word : 'Militarismo'}, 
-    			{word : 'Silenciar'}, 
-    			{word : 'Imposición'}, 
-    			{word : 'Represión'}			
+    		    	{word : 'Democracy'}, 
+    			{word : 'Human rights'}, 
+    			{word : 'Alexei Navalny'}, 
+    			{word : 'Boris Nemtsov'},
+			{word : 'Yabloko'},
+			{word : 'Mikhail Gorbachev'},
+    			{word : 'Mikhail Khodorkovsky'}			
 			],
 				//Stimulus css
 				stimulusCss : {color:'#336600','font-size':'1.4em'}
 			},
 			attribute1 :
 			{
-				name : 'Malo',
+				name : 'Bad',
 				title : {
-					media : {word : 'Malo'},
+					media : {word : 'Bad'},
 					css : {color:'#0000FF','font-size':'1.4em'},
 					height : 1 //Used to position the "Or" in the combined block.
 				},
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word: 'Enemiga'},
-					{word: 'Tristeza'},
+					{word: 'Enemy'},
+					{word: 'Sadness'},
 					{word: 'Terrible'},
-					{word: 'Dolor'},
-					{word: 'Repulsivo'},
-					{word: 'Odio'},
-					{word: 'Pérdida'},
-					{word: 'Enfermo'}
+					{word: 'Pain'},
+					{word: 'Repulsive'},
+					{word: 'Hate'},
+					{word: 'Loss'},
+					{word: 'Sick'}
 				],
 				//Stimulus css
 				stimulusCss : {color:'#0000FF','font-size':'1.6em'}
 			},
 			attribute2 :
 			{
-				name : 'Bueno',
+				name : 'Good',
 				title : {
-					media : {word : 'Bueno'},
+					media : {word : 'Good'},
 					css : {color:'#0000FF','font-size':'1.4em'},
 					height : 1 //Used to position the "Or" in the combined block.
 				},
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word: 'Amiga'},
-					{word: 'Felicidad'},
-					{word: 'Excelente'},
-					{word: 'Placer'},
-					{word: 'Atractivo'},
-					{word: 'Amor'},
-					{word: 'Ganancia'},
-					{word: 'Sano'}
+					{word: 'Friend'},
+					{word: 'Happiness'},
+					{word: 'Excellent'},
+					{word: 'Pleasure'},
+					{word: 'Attractive'},
+					{word: 'Love'},
+					{word: 'Gain'},
+					{word: 'Healthy'}
 				],
 				//Stimulus css
 				stimulusCss : {color:'#0000FF','font-size':'1.6em'}
